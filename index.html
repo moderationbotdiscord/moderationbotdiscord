@@ -1,0 +1,145 @@
+ <html>
+<head>
+  <style>
+.siteheader {
+text-align: center;
+  font-size: 40px;
+color: white;
+top: 90px;
+font-family: "font";
+}
+body {
+ background-color: #202225;
+}
+.text {
+color: white;
+font-size: 20px;
+font-family: "font";
+}
+.link {
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+.addbot {
+  position: absolute;
+left: 20px;
+top: 15px;
+margin: auto;
+
+}
+.topnav {
+top: 15px;
+}
+.status {
+  position: absolute;
+left: 9%;
+top: 15px;
+margin: auto;
+}
+
+.freepricingborder {
+
+ position: absolute;
+  top: 200px;
+  height: 350px;
+  width: 30%;
+  background-color: #373b40;
+  left: 33%;
+}
+.pricingtext {
+color: white;
+text-align: center;
+
+}
+#pricingperk {
+position: relative;
+top: 15px;
+}
+
+.advpricingborder {
+position: absolute;
+  top: 600px;
+  height: 350px;
+  width: 30%;
+  background-color: #373b40;
+  left: 33%;
+}
+.premiumpricingborder {
+position: absolute;
+  top: 1000px;
+  height: 350px;
+  width: 30%;
+  background-color: #373b40;
+  left: 33%;
+}
+.pricingheader {
+position: absolute;
+top: 150px;
+left: 45%
+}
+@font-face {
+    font-family: "font";
+    src: url(https://codenationgroup.github.io/moderation/assets/Outfit-Regular.ttf) format("TrueType");
+   
+}
+.pricing {
+font-family: "font";
+font-size: 18px;
+}
+.divider {
+ position: absolute;
+left: 8.1%;
+top: 15px;
+margin: auto;
+}
+  </style>
+  <script> 
+  if (location.href.indexOf("ltdembeds") !== -1) {
+document.getElementById("changeabletext").innerText = `
+*Embeds: 
+- Embed Colors are changeable,
+- Up to 3 custom images (only discord media links)
+`
+  }
+</script>
+  </head>
+<body>
+  <h1 class="siteheader"> Moderation Bot </h1>
+<div class="topnav">
+  <a class="text link addbot" href="https://discord.com/api/oauth2/authorize?client_id=1001924833807974411&permissions=8&scope=bot%20applications.commands"> Invite Bot</a> <p class="text topnav divider"> | </p>
+  <p class="text link status"> Status </p>
+  </div>
+
+  <p class="text" id="secondgen"> Welcome to the 2nd Generation of Discord Server Moderation </p>
+
+  <p id="changeabletext" class="text"></p>
+  <p class="text pricingheader siteheader"> Pricing:</p>
+
+
+
+<div class="freepricingborder pricing pricingtext" id="pricingelement1">
+  <h3 id="pricingperk">Free:</h3>
+  <p class="text">$0/mo</p>
+  <p id="pricingperk">- 10 Customized Embeds</p>
+ <p id="pricingperk">- Advanced Modlogs</p>
+  <p id="pricingperk">- 12 Unique Avatars</p>
+  <p id="pricingperk"></p>
+</div>
+<div class="advpricingborder pricing pricingtext" id="pricingelement1">
+  <h3 id="pricingperk">Advanced:</h3>
+  <p class="text">$3/mo</p>
+  <p id="pricingperk">- 10 Customized Embeds</p>
+ <p id="pricingperk">- Advanced Modlogs</p>
+  <p id="pricingperk">- 12 Unique Avatars</p>
+  <p id="pricingperk"></p>
+</div>
+<div class="premiumpricingborder pricing pricingtext" id="pricingelement1">
+  <h3 id="pricingperk">Premium:</h3>
+<p class="text">$5/mo</p>
+  <p id="pricingperk">- Embed Customization <a class="link" href="https://codepen.io/swfrs/full/YzvXmrB?ltdembeds"> * </a></p>
+ <p id="pricingperk">- Credits removed</p>
+  <p id="pricingperk">- Custom Media: Pictures in Embeds</p>
+</div>
+  </body>
+</html>
