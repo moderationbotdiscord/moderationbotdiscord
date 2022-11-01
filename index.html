@@ -18,30 +18,32 @@ With our redundant code and our 99.99% Uptime Hosting Service, This is the next 
    @media screen and (max-width: 600px) {
   p {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    text-size: 50px;
+    text-size: 12px;
   }
 .freepricingborder {
 width: 100%;
- text-size: 20px;
-font-family: "font";
     }
 
 .advpricingborder {
 width: 100%;
- text-size: 20px;
-font-family: "font";
     }
 .premiumpricingborder {
 width: 100%;
  text-size: 20px;
 font-family: "font";
+margin: auto;
     }
+     .pricingheader{
+position: absolute;
+top: 150px;
+left: 20%;
+}
    }
 .siteheader {
 text-align: center;
   font-size: 40px;
 color: white;
-top: 90px;
+position: relative;
 font-family: "font";
 }
 body {
@@ -74,15 +76,7 @@ top: 15px;
 margin: auto;
 }
 
-.freepricingborder {
 
- position: absolute;
-  top: 200px;
-  height: 350px;
-  width: 30%;
-  background-color: #373b40;
-  left: 33%;
-}
 .pricingtext {
 color: white;
 text-align: center;
@@ -92,27 +86,52 @@ text-align: center;
 position: relative;
 top: 15px;
 }
+.freepricingborder {
 
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 385px;
+    min-height: 400px;
+  margin: auto;
+}
 .advpricingborder {
-position: absolute;
-  top: 600px;
-  height: 350px;
-  width: 30%;
-  background-color: #373b40;
-  left: 33%;
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 385px;
+    min-height: 400px;
+  margin: auto;
+position: relative;
+top: 100px;
 }
 .premiumpricingborder {
-position: absolute;
-  top: 1000px;
-  height: 350px;
-  width: 30%;
-  background-color: #373b40;
-  left: 33%;
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 385px;
+    min-height: 400px;
+  margin: auto;
+position: relative;
+top: 150px;
 }
 .pricingheader {
-position: absolute;
-top: 150px;
-left: 45.5%;
+text-align: center;
 }
 @font-face {
     font-family: "font";
@@ -137,6 +156,10 @@ width: 5%;
 background-color: #50555b;
 border-radius: 5px;
     }
+
+#secondgen {
+position: relative;
+}
   </style>
   <script> 
   if (location.href.indexOf("ltdembeds") !== -1) {
@@ -163,7 +186,7 @@ Enable with /options testcommands
   <p class="text" id="secondgen"> Welcome to the 2nd Generation of Discord Server Moderation </p>
 
   <p id="changeabletext" class="text"></p>
-  <p class="text pricingheader siteheader"> Pricing:</p>
+  <p style="text-align: center;"class="text"> Pricing:</p>
 
 
 
