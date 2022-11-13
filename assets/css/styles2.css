@@ -1,0 +1,121 @@
+.siteheader {
+text-align: center;
+  font-size: 40px;
+color: white;
+position: relative;
+font-family: "font";
+}
+body {
+ background-color: #202225;
+}
+.text {
+color: white;
+font-size: 20px;
+font-family: "font";
+}
+.link {
+color: white;
+text-decoration: none;
+font-size: 20px;
+}
+.addbot {
+  position: absolute;
+left: 20px;
+top: 15px;
+margin: auto;
+
+}
+.topnav {
+top: 15px;
+}
+.status {
+  position: absolute;
+left: 9%;
+top: 15px;
+margin: auto;
+}
+
+
+.pricingtext {
+color: white;
+text-align: center;
+
+}
+#pricingperk {
+position: relative;
+top: 15px;
+}
+.freepricingborder {
+
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 325px;
+    min-height: 400px;
+  margin: auto;
+}
+.advpricingborder {
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 325px;
+    min-height: 400px;
+  margin: auto;
+position: relative;
+top: 100px;
+}
+.premiumpricingborder {
+display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 20px 20px;
+    background-color: #373b40;
+    width: 325px;
+    min-height: 400px;
+  margin: auto;
+position: relative;
+top: 150px;
+}
+.pricingheader {
+text-align: center;
+}
+@font-face {
+    font-family: "font";
+    src: url(https://codenationgroup.github.io/moderation/assets/Outfit-Regular.ttf) format("TrueType");
+   
+}
+.pricing {
+font-family: "font";
+font-size: 18px;
+border-radius: 12px;
+}
+.divider {
+ position: absolute;
+left: 8.1%;
+top: 15px;
+margin: auto;
+}
+    .invite {
+position: relative;
+top: 10px;
+width: 60px;
+background-color: #50555b;
+border-radius: 5px;
+    }
+
+#secondgen {
+position: relative;
+}
