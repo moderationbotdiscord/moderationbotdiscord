@@ -1,0 +1,5 @@
+Fletch Bot website DDOS attack,
+
+
+On november 16, 2022 we experienced a DDOS attack with over 14k total requests. Due to this, our domain is unusable at this time. We apologize for the inconvience!
+Please note that DDOS attacks are a serious matter and we will be reporting this attack to proper authorities. 
